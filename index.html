@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maxmo-Net</title>
+  <meta name="description" content="Andelslaget Maxmo-Net - Fibernät för TV och Internet.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#hem" aria-label="Gå till startsidan">
+        <img src="static/cropped-maxmonet_sidhuvud-1.jpg" alt="Maxmo-Net logotyp">
+      </a>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Byt färgtema">◐</button>
+        <button id="menuToggle" class="icon-btn" type="button" aria-controls="mobileNav" aria-expanded="false" aria-label="Öppna meny">☰</button>
+      </div>
+    </header>
+
+    <nav id="mobileNav" class="mobile-nav" aria-label="Huvudmeny">
+      <a href="#hem" data-route="hem">Hem</a>
+      <a href="#kontakt" data-route="kontakt">Kontakt</a>
+      <a href="#fiber" data-route="fiber">Fiber</a>
+      <a href="#kabelvisning" data-route="kabelvisning">Kabelvisning</a>
+    </nav>
+
+    <main id="app" class="content" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <p>
+        Andelslaget Maxmo-Net |
+        <button id="copyOrg" class="copy-btn" type="button" data-value="1478437-9" aria-label="Kopiera organisationsnummer">1478437-9</button>
+        | <a href="https://www.maxmonet.fi" target="_blank" rel="noopener noreferrer">www.maxmonet.fi</a>
+        | info at maxmonet.fi
+      </p>
+      <small id="copyStatus" aria-live="polite"></small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
