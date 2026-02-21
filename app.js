@@ -43,7 +43,8 @@ const pages = {
   kontakt: `
     <section class="card">
       <h1>Kontakt</h1>
-      <p>info at maxmonet.fi</p>
+      <p>Vid frågor och felsituationer får du snabbast hjälp via vår <a href="https://chat.whatsapp.com/Lr0boNSWST8ETKr3K8bBlk">WhatsApp-community</a>.</p>
+      <p>E-post: info at maxmonet.fi</p>
       <p>Andreas Knutar</p>
       <p>andreas.knutar at maxmonet.fi</p>
       <p>tel. 0500-363 679</p>
