@@ -66,15 +66,7 @@ const pages = {
           <tr><td>TV</td><td>16,20 euro/mån</td></tr>
         </tbody>
       </table>
-      <h1>Här bygger vi fiber</h1>      
-      <p>
-        Andelslaget Maxmo-Net bygger vidare på fibernätet och har för avsikt att under åren 2022-2023
-        utvidga nätet till Ölis och Vassorområdet. Maxmo-Net har sedan 2013 framgångsrikt byggt och
-        upprätthållit fibernätet i Maxmo kyrkby med omliggande byar.
-      </p>
-      <img class="fiber-image" src="static/fiber_utbyggnad-1.jpg" alt="Planerad utbyggnad av fibernätet">
-      <p class="caption">Enligt det färgade området planeras utbyggnad av fibernätet.</p>
-      <p>
+       <p>
         Fibernätet är ett öppet fibernät. Andelslaget äger och upprätthåller nätets infrastruktur och ger
         tjänsteleverantörer möjlighet att distribuera tjänster på jämlika villkor. Medlemmarna kan välja
         vilka tjänster man tar del av.
@@ -91,12 +83,6 @@ const pages = {
         Anslutningsavgiften är 1400 EUR (inkl. moms) per fastighet och förutsätter medlemskap i
         Andelslaget Maxmo-Net. Andelsavgiften är 50 EUR.
       </p>
-      <p>
-        För att styrelsen ska kunna besluta om byggstart i området behövs ett intentionsavtal.
-      </p>
-      <div class="actions">
-        <a class="btn alt" href="static/intentionsavtal-olis-vassor-2022-2023.pdf" target="_blank" rel="noopener noreferrer">Ladda ner intentionsavtal</a>
-      </div>
     </section>
   `,
   kabelvisning: `
